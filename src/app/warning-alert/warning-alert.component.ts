@@ -2,8 +2,9 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: '[app-warning-alert]',
+  standalone: false,
   templateUrl: './warning-alert.component.html',
-  // styleUrl: './warning-alert.component.css'
+  // styleUrl: './warning-alert.component.css',
   styles: [
     `
       p {
@@ -15,6 +16,6 @@ import { Component } from '@angular/core';
         border-radius: 5px;
       }
     `,
-  ],
+  ]
 })
 export class WarningAlertComponent {}
